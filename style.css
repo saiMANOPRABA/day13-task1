@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+}
+:root {
+    --header-color:#2F3D46;
+    --text-color:#F5FEFF;
+    --background-color:#CAD2C5;
+    --content-color:#353535;
+
+
+}
+.header{
+  background-color: var(--header-color);
+  display: flex;
+  padding: 10px;
+}
+
+
+.heading{
+    text-align: center;
+    width:100%;
+    color: var(--text-color);
+    font-size: 25px;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+i{
+    margin:10px;
+    color: var(--text-color);
+    font-size: 40px;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly
+}
+
+
+.nav{
+    display: flex;
+    margin: 60px;;
+    height: 500px;
+    width:300px;
+    background-color: var(--content-color);
+    border-radius: 20px;
+
+
+}
+
+
+.search{
+    display: flex;
+    background-color: var(--content-color);
+    width: 500px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 80px; 
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    margin-top: 70px;
+
+
+}
+
+
+.card{
+    height: 120px;
+    width: 180px;
+    background-color: var(--content-color);
+    border-radius: 10px;
+}
+
+.footer{
+    width: 700px;
+    height: 170px;
+    background-color: var(--content-color);
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
